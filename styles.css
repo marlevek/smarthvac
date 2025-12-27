@@ -415,6 +415,24 @@
       font-weight: 600;
   }
 
+  /* Plano futuro / em desenvolvimento */
+  .future-plan {
+      border: 2px dashed #adb5bd;
+      background: linear-gradient(180deg, #f8f9fa, #ffffff);
+  }
+
+  .badge-future {
+      display: inline-block;
+      background-color: #6c757d;
+      color: #fff;
+      font-size: 0.75rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      margin-bottom: 0.75rem;
+  }
+
+
+
   /* FOOTER */
   footer {
       background-color: #020617;
@@ -433,16 +451,15 @@
   }
 
   /* RESPONSIVO */
-/* Ajustes para telas menores */
-@media (max-width: 575.98px) {
-    .logo-smarthvac {
-        height: 32px;      /* logo menor no mobile */
-    }
+  /* Ajustes para telas menores */
+  @media (max-width: 575.98px) {
+      .logo-smarthvac {
+          height: 32px;
+          /* logo menor no mobile */
+      }
 
-    .hero-section {
-        padding-top: 5.5rem;  /* navbar mais baixa, hero sobe um pouco */
-    }
-}
-
-
- 
+      .hero-section {
+          padding-top: 5.5rem;
+          /* navbar mais baixa, hero sobe um pouco */
+      }
+  }
